@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Les bases du JavScript !</title>
+</head>
+
+<body>
+  <h1>Explorons les bases du JS</h1>
+  <h3>Projet disponible : <a href="https://github.com/int2cs/exoJS">ici</a></h3>
+
+  <!-- EXERCISSE 1 -->
+  <div class="bloc bloc1">
+    <p>Ici, nous voulons que le text disparaisse lorsque l'on clique sur le bouton et qu'il réapparaisse lorsque nous
+      re-cliquons dessus</p>
+    <blockquote class="para1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo fuga rem eveniet incidunt quo expedita laborum
+      eligendi atque alias quod culpa assumenda vero optio doloribus dolorem, labore ut, impedit odit!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo fuga rem eveniet incidunt quo expedita laborum
+      eligendi atque alias quod culpa assumenda vero optio doloribus dolorem, labore ut, impedit odit!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo fuga rem eveniet incidunt quo expedita laborum
+      eligendi atque alias quod culpa assumenda vero optio doloribus dolorem, labore ut, impedit odit!
+    </blockquote>
+    <button class="btn1">Afficher/Masquer</button>
+  </div>
+
+
+  <!-- EXERCISSE 2 -->
+  <div class="bloc bloc2">
+    <p>Ici, nous voulons afficher la position de notre curseur sur la page</p>
+    <blockquote>
+      Position sur l'axe des X : <span class="posX"></span> <br>
+      Position sur l'axe des Y : <span class="posY"></span>
+    </blockquote>
+  </div>
+
+  <!-- EXERCISSE 3 -->
+  <div class="bloc bloc3">
+    <p>Maintenant, faisons en sorte qu'en fonction de l'image sur laquelle je clique, elle s'affiche dans le cadre </p>
+    <blockquote>
+      <div id="carousel">
+        <div class="cadre">
+          <img id="currentImg" src="#" alt="Image à afficher ici">
+        </div>
+        <div class="thumb">
+          <img class="img1" src="./img/cloud-5946381_640.jpg" alt="Image 1">
+          <img class="img2" src="./img/desert-2528145_640.jpg" alt="Image 2">
+          <img class="img3" src="./img/sunrise-5863751_640.png" alt="Image 3">
+        </div>
+      </div>
+    </blockquote>
+  </div>
+
+  <!-- EXERCISSE 4 -->
+  <div class="bloc bloc4">
+    <p>Vous devez faire en sorte que la phrase suivante soit inversée lorsque l'on clique sur le bouton</p>
+    <blockquote>Retourne moi !</blockquote>
+    <button>Inverser</button>
+  </div>
+
+  <!-- EXERCISSE 5 -->
+  <div class="bloc bloc5">
+    <p>L'encadré rouge doit renvoyer la valeur entrée dans le champ de texte.</p>
+    <blockquote>
+      <div class="result"></div>
+      <input type="text" name="input" id="input">
+    </blockquote>
+  </div>
+
+
+  <footer>
+    <p>Proposé par Gabriel Gobin</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
